@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: left;
+    font-size: 18pt;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+body {
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+}
+
+a {
+    color: #A4A400;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+blockquote {
+    font-style: italic;
+    background-color: #FFFFA8;
+    padding: 10px;
+    margin: 20px;
+    border-left: 5px solid #A4A400;
+    font-family: Georgia, Garamond, serif;
+}
+
+blockquote b {
+    font-weight: bold;
+}
+
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding-left: 48px;
+    background: url('travel-icon.jpg') no-repeat left center;
+    background-size: 30px 30px;
+    margin-bottom: 20px;
+}
+
+
+ol li {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+ol li:hover::after {
+    content: attr(title);
+    position: absolute;
+    top: -30px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+}
