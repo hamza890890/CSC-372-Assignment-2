@@ -49,7 +49,7 @@ ul {
 
 ul li {
     padding-left: 48px;
-    background: url('travel-icon.jpg') no-repeat left center;
+    background: url('images/travel-icon.jpg') no-repeat left center;
     background-size: 30px 30px;
     margin-bottom: 20px;
 }
@@ -57,7 +57,7 @@ ul li {
 
 ol li {
     position: relative;
-    display: inline-block;
+    display: list-item;
     margin-bottom: 15px;
 }
 
